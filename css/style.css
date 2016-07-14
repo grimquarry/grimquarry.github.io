@@ -1,0 +1,319 @@
+
+
+body {
+	background-color:rgb(0,0,0);
+	border: .25em solid black;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+div {
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+}
+
+header {
+	width: 100%;
+
+}
+
+
+.img-list {
+	margin: auto;
+	margin-top: 90px;
+	background: rgb(0,0,0);
+	max-width: 185px;
+	width: 100%;
+	height: 435px;
+}
+
+.img-list img{
+	width:48%;
+}
+
+.article-events {
+	width: 100%;
+	height: 750px;
+	background-color: gray;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+	padding-top: 2.25em;
+	padding-bottom: 2.25em;
+	display: block;
+	background: url(../images/Display.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.article-homepage {
+	width: 63%;
+	float: left;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+	padding-top: 2.25em;
+	padding-bottom: 2.25em;
+}
+
+.article-display {
+	display: block;
+	background: url(../images/Display.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 63%;
+	float: left;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+	padding-bottom: 4.85em;
+}
+
+.aside-hompage {
+	display:block;
+	background: url(../images/sidebar_graphic.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 34%;
+	float: right;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+	padding-bottom: 55px;
+	padding-top: 15px;
+}
+
+.aside-table {
+	display:block;
+	background: url(../images/sidebar_graphic.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 34%;
+	float: right;
+	height: 540px;
+	border-bottom: 3px solid white;
+	background-color: gray;
+	border-top: 10px solid black;
+	padding-bottom: 84px;
+	padding-top: 15px;
+}
+
+p.sidebar-text {
+	background-color: rgb(195,195,195);
+	display: block;
+	max-width: 178px;
+	width: 100%;
+	margin: 0 auto;
+	padding: .30em;
+	font-family: Tahoma, Geneva, sans-serif;
+
+} 
+
+p.sidebar-heading {
+	color:black;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-shadow: 2px -1px 2px rgb(255,255,255);
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: rgb(195,195,195);
+	display: block;
+	max-width: 168px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+p.display-heading {
+	color:black;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-shadow: 2px -1px 2px rgb(255,255,255);
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: rgb(195,195,195);
+	display: block;
+	max-width: 179px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+h1 {
+	color:black; 
+	font-size: 26px;
+	text-align:left;
+	font-family: Impact, "Arial Black", sans-serif;
+	text-shadow: 2px -1px 2px rgb(255,255,255);
+}
+
+h2 {
+	color:black; 
+	font-size: 23px;
+	text-align:left;
+	font-family: Impact, "Arial Black", sans-serif;
+	text-shadow: 2px -1px 2px rgb(255,255,255);
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 10px;
+	text-align: center;
+}
+nav.sitenavigation {
+	color: #000;
+	text-align: center;
+}
+
+nav.sitenavigation h1{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav.sitenavigation p{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav.sitenavigation li{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.button {
+	background-color: #fff;
+	padding: 5px;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.button-side {
+	background-color: rgb(100,100,100);
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: .5em;
+	clear: both;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: rgb(100,100,100);
+	top: 3px;
+	left: 3px;
+}
+
+
+nav.sitenavigation a:link {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+nav.sitenavigation a:visited {
+	color: black;	
+}
+
+nav.sitenavigation a:hover {
+	color: rgb(100,100,100);
+	text-shadow: 2px -1px 2px rgb(0,0,0);
+}
+
+nav.sitenavigation a:focus {
+	color: rgb(100,100,100);
+	text-shadow: 2px -1px 2px rgb(0,0,0);
+}
+
+.img-responsive {
+	display: block;
+	max-width: 675px;
+	width: 100%;
+	height: auto !important;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.img-display {
+	display: block;
+	max-width: 550px;
+	width: 100%;
+	height: auto !important;
+	margin: 0 auto;
+	padding: .25em;
+}
+
+
+div.row {
+	display: table-row;
+}
+
+
+.event-list {
+	background-color: gray;
+	margin: 0 auto;
+	width: 900px;
+	height: 550px;
+	margin-top: 200px;
+}
+
+th {
+	border: 2px solid black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	padding: .5em;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	border: 2px solid black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: .75em;
+	padding: .1em;
+}
+
+ul {
+	list-style-image: url(../images/flying_skull.png);
+}
+
+form {
+	text-align: center;
+}
+
+input, select, textarea {
+	border: solid black;
+}
+
+h3, h4 {
+	margin-bottom: 0px;
+}
+
+#MySubmit {
+	margin-top: 10px;
+	background: rgb(195,195,195);
+	color: black;
+	font-family: Impact, "Arial Black", sans-serif;
+	text-shadow: 2px -1px 2px rgb(100,100,100);
+}
+
+ul.formlist {
+	list-style: none;
+	text-align: left;
+}
